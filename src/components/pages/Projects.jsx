@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import projectStyle from "../styles/project.module.css";
-import projects from "../../data/project.json";
+import projects from "../../data/projectData.json";
 import { FaCalendar, FaPlane } from "react-icons/fa";
 
 const Projects = () => {
