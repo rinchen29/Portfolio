@@ -35,7 +35,7 @@ const Project = () => {
             <div className={projectStyle.cardHead}>
               <div className={projectStyle.cardHeadLeft}>
                 <div className={projectStyle.projectImg}>
-                  <img src={proj.logo} alt="project image" />
+                  <img loading="lazy" src={proj.logo} alt="project image" />
                 </div>
                 <div className={projectStyle.projectTitle}>
                   <p>{proj.title}</p>

@@ -19,7 +19,7 @@ const Hero = () => {
        </div>
        <div className={HeroStyle.right}>
         <div className={HeroStyle.triangle}></div>
-        <img src={assets.profile} alt="Profile Image" className={HeroStyle.profileImage} />
+        <img src={assets.profile} loading="lazy" alt="Profile Image" className={HeroStyle.profileImage} />
        </div>
     </div>
   )

@@ -35,7 +35,7 @@ const Experience = () => {
             <div className={experienceStyle.experienceTop}>
               <div className={experienceStyle.experienceHead}>
                 <div className={experienceStyle.logo}>
-                  <img src={exp.logo} alt="company image" />
+                  <img loading="lazy" src={exp.logo} alt="company image" />
                 </div>
                 <p className={experienceStyle.name}>{exp.Company}</p>
                 <a href="#" className={experienceStyle.link}>
