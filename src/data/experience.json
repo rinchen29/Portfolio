@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "logo": "./src/assets/logo.webp",
+    "logo": "/logo.webp",
     "date": "July 2024",
     "endDate": "Present",
     "role": "QA Tester & SEO Associate",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "logo": "./src/assets/eazyByts.webp",
+    "logo": "/eazyByts.webp",
     "date": "August 2024",
     "endDate": "September 2024",
     "role": "MERN Stack Web Development Intern",
