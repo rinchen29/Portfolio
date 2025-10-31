@@ -3,7 +3,7 @@ import projectStyle from "../styles/project.module.css";
 import projects from "../../data/project.json";
 import { FaCalendar, FaPlane } from "react-icons/fa";
 
-const Project = () => {
+const Projects = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -70,4 +70,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;

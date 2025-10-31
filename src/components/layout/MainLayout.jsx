@@ -2,12 +2,12 @@ import NavBar from "../common/NavBar";
 import Hero from "../pages/Hero";
 import { assets } from "../../assets/assets";
 import gradientStyle from "../styles/gradient.module.css";
-import Project from "../pages/project";
 import Experience from "../pages/Experience";
 import Portfolio from "../pages/Portfolio";
 import Service from "../pages/Service";
 import Contact from "../pages/Contact";
-import Footer from "../pages/footer";
+import Footer from "../pages/Footer";
+import Project from "../pages/Projects";
 const MainLayout = () => {
   return (
     <>
