@@ -1,0 +1,23 @@
+.education{
+   font-size: 1.2rem;
+   font-weight: 400;
+   padding: 20px 0px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(173, 171, 171);
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ .education{
+   font-size: 1rem;
+   padding: 15px 0px;
+} 
+}
+@media only screen and (max-width: 767px){
+.education{
+   font-size: 0.8rem;
+   padding: 10px 0px;
+  gap: 0.5rem;
+}
+}

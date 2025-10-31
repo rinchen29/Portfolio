@@ -1,0 +1,111 @@
+.container{
+    margin-top: 90px;
+    padding: 0.3rem 0.5rem;
+}
+.container h2{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: gray;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 30px;
+    color: rgb(173, 171, 171);
+}
+.serviceCard{
+    width: 250px;
+    height: 250px;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+    position: relative;
+}
+.serviceCard:hover{
+  transform: rotateY(180deg);
+}
+.serviceCardInner,.serviceCardOuter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    backface-visibility: hidden;
+    background: #282c34;
+    border-radius: 10px;
+}
+
+.serviceInnerIcon,.serviceOuterIcon{
+    font-size: 4rem;
+    font-weight: 300;
+   
+}
+.serviceCardInner {
+  color: white;
+  transform: rotateY(0deg);
+}
+
+.serviceCardOuter {
+  color: white;
+  transform: rotateY(180deg);
+  
+}
+.serviceDescription{
+    font-family: 0.8rem;
+    color: rgb(139, 139, 139);
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ .container{
+    margin-top: 60px;
+    padding: 0.3rem 1rem;
+}
+.container h2{
+    font-size: 1.6rem;
+}
+.service{
+    gap: 1.3rem;
+    margin-top: 25px;
+}
+.serviceCard{
+    width: 230px;
+    height: 230px;
+}
+.serviceCardInner,.serviceCardOuter{
+    padding: 8px;
+}
+.serviceInnerIcon,.serviceOuterIcon{
+    font-size: 3.5rem;
+}
+}
+@media only screen and (max-width: 767px){
+  .container{
+    padding: 0.3rem;
+}
+.container h2{
+    font-size: 1.3rem;
+}
+.service{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    margin-top: 20px;
+}
+.serviceCard{
+    width: 280px;
+    height: 200px;
+}
+.serviceInnerIcon,.serviceOuterIcon{
+    font-size: 3rem;
+   
+}
+.serviceDescription{
+    font-family: 0.8rem;
+    color: rgb(139, 139, 139);
+}  
+}

@@ -1,0 +1,259 @@
+.hidden {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.project:nth-child(2n+1).show {
+  transition-delay: 0.2s;
+}
+.project:nth-child(2n).show {
+  transition-delay: 0.4s;
+}
+.projectTimeline.hidden {
+  height: 0;
+  opacity: 0;
+}
+.projectTimeline.show {
+  height: 78%;
+  opacity: 1;
+  transition: height 1.2s ease-out, opacity 0.8s ease-out;
+}
+.projectTimelineIcon {
+  opacity: 0;
+  transition: opacity 0.8s ease-out 0.5s;
+}
+.projectTimeline.show .projectTimelineIcon {
+  opacity: 1;
+}
+.container{
+    margin-top: 20px;
+    padding: 0.3rem 0.5rem;
+    background-image: url("../../assets/gradient.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container h2{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: gray;
+}
+.projectContainer{
+   margin-top: 80px;
+   position: relative;
+}
+.project{
+    position: relative;
+    background-color: rgba(128, 128, 128, 0.329);
+    padding:15px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    width: 35%;
+     box-shadow:  10px 10px 20px #bebebe6b, inset
+             -10px 10px 20px #ffffff67;
+}
+.project:nth-child(2n){
+    left: 62%;
+}
+.project:nth-child(2n+1){
+    left: 3%;
+}.project:nth-child(2n+1)::after{
+   content: "";
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   top: 10%;
+   right: -34.5%;
+   border-radius: 50%;
+   background-color: gray;
+}
+.project:nth-child(2n)::after{
+   content: "";
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   bottom: 72%;
+   left: -37.7%;
+   border-radius: 50%;
+   background-color: gray;
+}
+.cardHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardHeadLeft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.projectImg{
+   padding: 5px;
+   background-color: #E0E0E0;
+   border-radius: 5px;
+   width: 40px;
+   height: 40px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.548),inset -2px -2px 5px rgba(255, 255, 255, 0.616);
+}
+.projectImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;  
+}
+.projectTitle{
+    padding: 5px;
+    color: lightgray;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.projectTitle a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.projDate{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.projectDescription{
+    color: rgb(182, 181, 181);
+    letter-spacing: 1px;
+}
+.projectTimeline{
+    position: absolute;
+    z-index: 100;
+    height: 78%;
+    width: 0;
+    border:2px dashed gray;
+    top: 3%;
+    right: 50.4%;
+}
+.projectTimelineIcon{
+    font-size: 1.8rem;
+    color: white;
+    position: sticky;
+    rotate: 90deg;
+    top: 10%;
+    transform: translateY(13px)
+}
+.tech{
+    display: flex;
+    gap: 5px;
+    font-size: 0.9rem;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ .container{
+    padding: 0px;
+}
+.container h2{
+    font-size: 1.6rem;;
+}
+.projectContainer{
+   margin-top: 60px;
+}
+.project{
+    gap: 0.6rem;
+}
+.project:nth-child(2n+1)::after{
+   width: 13px;
+   height: 13px;
+}
+.project:nth-child(2n)::after{
+   width: 13px;
+   height: 13px;
+}
+.cardHeadLeft{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+.projectImg{
+   width: 38px;
+   height: 38px;
+}
+.projectTitle{
+    font-size: 1rem;
+}
+.projectTitle a{
+    font-size: 0.9rem;
+}
+.projDate{
+    gap: 4px;
+    font-size: 0.9rem;
+}
+.projectTimelineIcon{
+    font-size: 1.6rem;
+}
+.tech{
+    gap: 4px;
+}
+}
+@media only screen and (max-width: 767px){
+.container{
+    margin-top: 10px;
+    padding: 0px;
+    background-position: top;
+    background-size: cover;
+}
+.container h2{
+    font-size: 1.3rem;
+}
+.projectContainer{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+.project{
+    padding:10px 8px;
+    gap: 0.6rem;
+    width: 85%;
+    overflow: hidden;
+}
+.project:nth-child(2n){
+    left: 8%;
+}
+.project:nth-child(2n+1){
+    left: 8%;
+}
+.cardHeadLeft{
+    gap: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.projectImg{
+   padding: 4px;
+   width: 35px;
+   height: 35px;
+}
+.projectTimeline{
+    top: 8%;
+    right: 0;
+    height: 90%;
+    left: 3%;
+}
+.projectTimelineIcon{
+    font-size: 1.2rem;
+    top: 10%;
+    transform: translateY(10px)
+}
+.projectDescription{
+    font-size: 0.8rem;
+}
+.tech{
+     font-size: 0.8rem;
+}
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "logo": "./src/assets/digitalMarketing.jpg",
+    "date": "30/01/25",
+    "title": "Digital Marketing Website",
+    "description": "A full-stack digital marketing platform with an admin panel for managing blogs, services, and contacts, built using MERN stack and Tailwind CSS.",
+    "link": "https://github.com/rinchen29/Clickefy",
+    "TechStack": ["MongoDB", "Express.JS", "React.JS", "Node.JS", "Tailwind CSS", "Nodemailer"]
+  },
+  {
+    "id": 2,
+    "logo": "./src/assets/shopping.jpg",
+    "date": "29/11/24",
+    "title": "E-Commerce API",
+    "description": "A RESTful API for managing product inventory with CRUD operations, built using Node.js, Express, and MongoDB.",
+    "link": "https://github.com/rinchen29/E-Commerce-API-",
+    "TechStack": ["MongoDB", "Node.JS", "Express.JS"]
+  },
+  {
+    "id": 3,
+    "logo": "./src/assets/chat.webp",
+    "date": "25/11/24",
+    "title": "Real-Time Chat App",
+    "description": "A real-time chat application using Socket.IO and MongoDB that enables instant messaging in dynamic chat rooms.",
+    "link": "https://github.com/rinchen29/Chat-app",
+    "TechStack": ["MongoDB", "Node.JS", "Express.JS", "Socket.IO"]
+  }
+]

@@ -1,0 +1,19 @@
+[ {
+      "id":1,
+      "title": "Full-Stack Web Development",
+      "icon": "FaCode",
+      "description": "Custom web apps built with MERN stack (MongoDB, Express, React, Node.js) for scalability and speed."
+    },
+    {
+      "id": 2,
+      "title": "Frontend Development",
+      "icon": "FaReact",
+      "description": "Beautiful, responsive UIs built with React.js and Tailwind CSS for an excellent user experience."
+    },
+    {
+      "id": 3,
+      "title": "WordPress Website Design",
+      "icon": "FaWordpress",
+      "description": "Custom WordPress themes and websites that are SEO-friendly, mobile-optimized, and fast."
+    }
+  ]

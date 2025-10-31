@@ -1,0 +1,217 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;  
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+}
+.logo h1{
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+}
+.navLinks{
+    display: flex;
+    gap: 1rem;
+}
+.navLinks a{
+    text-decoration: none;
+    color: #a7a7a7a7;
+    transition: color 0.5s ease;
+    letter-spacing: 0.1rem;
+}
+.navLinks a:hover{
+    color: #fff;
+}
+.dwnBtn{
+    text-decoration: none;
+    background-color:black;
+    padding: 1px;
+    min-width: 100px;
+    height: 40px;
+    z-index: -2;
+    overflow: hidden;
+    border-radius:10px ;
+}
+.dwnBtn button{
+    width: 100%;
+    color: white;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: #282C34;
+    font-weight: 300;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px 5px rgba(255, 255, 255, 0.336);
+}
+.dwnBtn button::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    left: -35%;
+    background: conic-gradient(
+    from 0deg,
+    #cc2b5e,
+    #753a88,
+    #00ffcc,
+    #0066ff,
+    #ff0055
+  );
+    rotate: 90deg;
+    z-index: -1;
+    animation: rotate 2s linear infinite;
+}
+
+.menuBar{
+    display: none;
+}
+.menu,.hideMenu{
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100%;
+}
+.menu{
+  opacity: 0.9;
+  transform:translateX(0) ;
+  background-color: #4d525c6e;
+  z-index: 10000;
+}
+.hideMenu{
+   transform: translateX(-100%);
+   opacity: 0;
+   pointer-events: none;
+}
+.menu div{
+    background-color: #282C34;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.5rem 1rem;
+}
+.menuLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.menuLinks a{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 0.2rem;
+    padding: 5px; 
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.header{
+    padding: 0.8rem 2.3rem;  
+}
+.logo h1{
+    letter-spacing: 0.2rem;
+}
+.navLinks{
+    gap: 0.8rem;
+}
+.dwnBtn{
+    min-width: 80px;
+    height: 35px;
+}
+.dwnBtn button{
+    font-size: 0.9rem;
+    padding: 3px;
+}
+.dwnBtn button::before{
+    left: -40%;
+    background: conic-gradient(
+    from 0deg,
+    #cc2b5e,
+    #753a88,
+    #00ffcc,
+    #0066ff,
+    #ff0055
+  );
+}
+}
+@media only screen and (max-width: 767px) {
+.header{
+    padding: 0.6rem 2rem;  
+}
+.logo h1{
+    letter-spacing: 0.1rem;
+}
+.navLinks{
+   display: none;
+}
+.dwnBtn{
+   display: none;
+}
+
+.menuBar{
+    display: block;
+}  
+.menu_btn{
+    text-align: center;
+    border: none;
+    min-width: 130px;
+    height: 30px;
+    padding: 1px;
+    background-color: #282C34;
+    overflow: hidden;
+    z-index: 100;
+    border-radius:10px;
+    
+}
+.menu_btn a{
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    height: 100%;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2px;
+}
+.menu_btn a::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width:150px;
+    height: 100%;
+    left: -5%;
+    background: conic-gradient(
+    from 0deg,
+    #cc2b5e,
+    #753a88,
+    #00ffcc,
+    #0066ff,
+    #ff0055
+  );
+    rotate: 90deg;
+    z-index: -1;
+    animation: rotate 2s linear infinite;
+}
+
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

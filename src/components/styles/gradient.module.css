@@ -1,0 +1,16 @@
+.image{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    opacity: 0.5;
+}
+.blur{
+    height: 0;
+    position: absolute;
+    top: 25%;
+    width: 30rem;
+    right: 0;
+    box-shadow:0 0 700px 15px white ;
+    rotate: -30deg;
+    z-index: -1;
+}

@@ -1,0 +1,43 @@
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.skill{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 5px;
+    width: 40%;
+    color: rgb(173, 171, 171);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.5s ease;
+}
+.skill:hover{
+    background: white;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ .skills{
+  gap: 0.8rem;
+}
+.skill{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 3px;
+}
+}
+@media only screen and (max-width: 767px){
+.skills{
+  grid-template-columns: 1fr 1fr ;
+   gap: 0.3rem;
+}
+.skill{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px;
+    width: 75%;
+    gap: 3px;
+}
+}
