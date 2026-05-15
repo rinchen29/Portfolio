@@ -21,7 +21,7 @@ const NavBar = () => {
         <a href="#Service">Service</a>
         <a href="#Contact">Contact</a>
       </nav>
-       <a href="/src/assets/Rinchen_Bhutia_CV.V2.pdf" download="Rinchen_Bhutia_CV.V2.pdf" className={NavBarStyle.dwnBtn}><button>Download CV</button></a>
+       <a href="/src/assets/Rinchen_Bhutia_Resume.pdf" download="Rinchen_Bhutia_Resume.pdf" className={NavBarStyle.dwnBtn}><button>Download CV</button></a>
        <BiMenu className={NavBarStyle.menuBar} onClick={handleClick}/> 
     </header>
       <div className={showMenu?NavBarStyle.menu:NavBarStyle.hideMenu} onClick={handleClickMenu}>
@@ -32,7 +32,7 @@ const NavBar = () => {
         <a href="#Service" onClick={()=>setMenu(!showMenu)}>Service</a>
         <a href="#Contact" onClick={()=>setMenu(!showMenu)}>Contact</a>
         </nav>
-       <button className={NavBarStyle.menu_btn}><a href="/src/assets/Rinchen_Bhutia_CV.V2.pdf" download="Rinchen_Bhutia_CV.V2.pdf">Download CV</a></button> 
+       <button className={NavBarStyle.menu_btn}><a href="/src/assets/Rinchen_Bhutia_Resume.pdf" download="Rinchen_Bhutia_Resume.pdf">Download CV</a></button>
         </div>
     </div> 
     </>

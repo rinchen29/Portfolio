@@ -17,7 +17,7 @@
 
 .container{
     margin-top: 2rem;
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 2rem;
 }
 .container h2{
     text-align: center;
@@ -27,22 +27,21 @@
     color: gray;
 }
 .experienceContainer{
-    display: flex;
-    flex: wrap;
-    justify-content: space-between;
-    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 10px 5px;
     margin-top: 20px;
 }
 .experience{
     display: flex;
     flex-direction: column;
-   width: 45%;
-   padding: 20px;
-   gap: 1.3rem;
-   box-shadow: 0px 0px 5px  white;
-   border-radius: 10px;
-   background-color: black;
-   transition: all 0.8s ease;
+    padding: 24px;
+    gap: 1.3rem;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 10px;
+    background-color: black;
+    transition: all 0.8s ease;
 }
 .experience:hover{
    background-color: #282C34;
@@ -93,13 +92,18 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .container{
     margin-top: 2.3rem;
-    padding: 0.2rem 0.4rem;
+    padding: 0.2rem 1rem;
 }
 .container h2{
     font-size: 1.6rem;
 }
+.experienceContainer{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+}
 .experience{
    gap: 1rem;
+   padding: 18px;
 }
 .logo{
     width: 80px;
@@ -114,18 +118,17 @@
 @media only screen and (max-width: 767px) {
 .container{
     margin-top: 2.5rem;
+    padding: 0.3rem 1rem;
 }
 .container h2{
     font-size: 1.3rem;
 }
 .experienceContainer{
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
 }
 .experience{
-   width: 95%;
-   padding: 13px;
+   padding: 16px;
    gap: 1.1rem;
 }
 .logo{

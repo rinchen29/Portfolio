@@ -1,22 +1,32 @@
 [
   {
     "id": 1,
+    "logo": "",
+    "date": "January 2023",
+    "endDate": "Present",
+    "role": "Freelance Full Stack Developer",
+    "Company": "Self-Employed",
+    "description": "Delivered 5+ end-to-end web projects for clients across digital marketing, dental, and education sectors. Built custom WordPress themes and plugins, developed full-stack applications using Next.js, Supabase, Prisma, and PostgreSQL, and handled complete project lifecycles from requirements gathering to deployment.",
+    "link": "https://github.com/rinchen29"
+  },
+  {
+    "id": 2,
     "logo": "/logo.webp",
     "date": "July 2024",
     "endDate": "Present",
     "role": "QA Tester & SEO Associate",
     "Company": "VSDL IT Solution",
-    "description": "Contributed to major projects like CDO and FOC by collecting and organizing college data, building backlinks, and optimizing web pages to enhance visibility and engagement.",
+    "description": "Contributed to major projects CDO (Computer Degrees Online) and FOC (Find Our College) by collecting and organizing US college data, building high-quality backlinks, and collaborating with the digital marketing team to optimize landing pages and improve user engagement.",
     "link": "https://www.vsdlsol.com/about/"
   },
   {
-    "id": 2,
+    "id": 3,
     "logo": "/eazyByts.webp",
     "date": "August 2024",
     "endDate": "September 2024",
     "role": "MERN Stack Web Development Intern",
     "Company": "EazyBytes.com",
-    "description": "Developed responsive web applications using the MERN stack, implemented REST APIs, handled user authentication, and performed CRUD operations in an agile environment.",
+    "description": "Designed and developed dynamic, responsive web applications using the MERN stack, implemented REST APIs, handled user authentication and CRUD operations, and delivered functional features in an agile environment.",
     "link": "https://eazybyts.com/"
   }
 ]

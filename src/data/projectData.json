@@ -1,29 +1,62 @@
 [
   {
     "id": 1,
-    "logo": "/digitalMarketing.jpg",
-    "date": "30/01/25",
-    "title": "Digital Marketing Website",
-    "description": "A full-stack digital marketing platform with an admin panel for managing blogs, services, and contacts, built using MERN stack and Tailwind CSS.",
-    "link": "https://github.com/rinchen29/Clickefy",
-    "TechStack": ["MongoDB", "Express.JS", "React.JS", "Node.JS", "Tailwind CSS", "Nodemailer"]
+    "logo": "/logo.webp",
+    "date": "Jan 2026",
+    "title": "Clickefy — Digital Marketing Agency",
+    "description": "Fully custom WordPress theme from scratch (PHP, HTML/CSS, JavaScript) with no page-builder dependency. Built service pages, blog system, lead generation contact forms, and optimised on-page SEO including meta tags, schema markup, and site performance.",
+    "link": "https://github.com/rinchen29",
+    "live": true,
+    "TechStack": ["WordPress", "PHP", "HTML/CSS", "JavaScript", "SEO"]
   },
   {
     "id": 2,
-    "logo": "/shopping.jpg",
-    "date": "29/11/24",
-    "title": "E-Commerce API",
-    "description": "A RESTful API for managing product inventory with CRUD operations, built using Node.js, Express, and MongoDB.",
-    "link": "https://github.com/rinchen29/E-Commerce-API-",
-    "TechStack": ["MongoDB", "Node.JS", "Express.JS"]
+    "logo": "/digitalMarketing.jpg",
+    "date": "2025",
+    "title": "Dentify — Dental Clinic CMS Platform",
+    "description": "Full-stack dental clinic management platform with a headless CMS for appointments, services, and content. Designed relational schema using Prisma ORM with PostgreSQL on Supabase. Implemented SSR and static generation for fast loads and strong SEO.",
+    "link": "https://github.com/rinchen29",
+    "live": true,
+    "TechStack": ["Next.js", "Supabase", "Prisma", "PostgreSQL"]
   },
   {
     "id": 3,
+    "logo": "/shopping.jpg",
+    "date": "Apr 2026",
+    "title": "SAT Exam Portal — WordPress Plugin",
+    "description": "Custom WordPress plugin delivering SAT practice questions with dynamic rendering and interactive UI. Modular plugin architecture with custom post types, shortcodes, and admin settings. Deployed on live Hostinger environment with real SAT content.",
+    "link": "https://github.com/rinchen29",
+    "live": true,
+    "TechStack": ["WordPress", "PHP", "Elementor"]
+  },
+  {
+    "id": 4,
+    "logo": "/digitalMarketing.jpg",
+    "date": "Jan 2025",
+    "title": "Digital Marketing Full-Stack Website",
+    "description": "Full-stack digital marketing website with an admin panel to manage blogs, services, and contact submissions. CRUD operations with Express and MongoDB, Nodemailer integration, and a responsive React + Tailwind CSS UI.",
+    "link": "https://github.com/rinchen29/Clickefy",
+    "live": false,
+    "TechStack": ["MongoDB", "Express.JS", "React.JS", "Node.JS", "Tailwind CSS", "Nodemailer"]
+  },
+  {
+    "id": 5,
+    "logo": "/shopping.jpg",
+    "date": "Nov 2024",
+    "title": "E-Commerce REST API",
+    "description": "RESTful API for full product inventory management with CRUD operations. Modular MVC architecture with Mongoose ORM for schema validation; all endpoints tested via Postman.",
+    "link": "https://github.com/rinchen29/E-Commerce-API-",
+    "live": false,
+    "TechStack": ["MongoDB", "Node.JS", "Express.JS", "Mongoose"]
+  },
+  {
+    "id": 6,
     "logo": "/chat.webp",
-    "date": "25/11/24",
-    "title": "Real-Time Chat App",
-    "description": "A real-time chat application using Socket.IO and MongoDB that enables instant messaging in dynamic chat rooms.",
+    "date": "Nov 2024",
+    "title": "Real-Time Chat Application",
+    "description": "Real-time chat app enabling users to join chat rooms and exchange instant messages using Socket.IO. MongoDB for persistent chat history, responsive UI with live dynamic updates.",
     "link": "https://github.com/rinchen29/Chat-app",
+    "live": false,
     "TechStack": ["MongoDB", "Node.JS", "Express.JS", "Socket.IO"]
   }
 ]
