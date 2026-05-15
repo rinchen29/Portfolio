@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "logo": "/logo.webp",
+    "logo": "https://clickefy.com/wp-content/themes/Clickefy_Theme/assets/images/logo.png",
     "date": "Jan 2026",
     "title": "Clickefy — Digital Marketing Agency",
     "description": "Fully custom WordPress theme from scratch (PHP, HTML/CSS, JavaScript) with no page-builder dependency. Built service pages, blog system, lead generation contact forms, and optimised on-page SEO including meta tags, schema markup, and site performance.",
-    "link": "https://github.com/rinchen29",
+    "link": "https://www.clickefy.com",
     "live": true,
     "TechStack": ["WordPress", "PHP", "HTML/CSS", "JavaScript", "SEO"]
   },
   {
     "id": 2,
-    "logo": "/digitalMarketing.jpg",
+    "logo": "https://imgs.search.brave.com/Mq2fbMXI769N5PzmWZ0BajV7yYqwtg6ZWWm3Dd7y5BM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMDgv/OTU5LzQxMy9zbWFs/bC9zbWlsZS1kZW50/YWwtbG9nby1kZXNp/Z24tdmVjdG9yLmpw/Zw",
     "date": "2025",
     "title": "Dentify — Dental Clinic CMS Platform",
     "description": "Full-stack dental clinic management platform with a headless CMS for appointments, services, and content. Designed relational schema using Prisma ORM with PostgreSQL on Supabase. Implemented SSR and static generation for fast loads and strong SEO.",
-    "link": "https://github.com/rinchen29",
+    "link": "https://dentify-qo0j0f0r9-rinchen-bhutias-projects.vercel.app/",
     "live": true,
     "TechStack": ["Next.js", "Supabase", "Prisma", "PostgreSQL"]
   },
   {
     "id": 3,
-    "logo": "/shopping.jpg",
+    "logo": "https://yellow-squid-986399.hostingersite.com/wp-content/uploads/2026/04/cropped-cropped-ChatGPT-Image-Apr-22-2026-10_39_01-AM-90x57.png",
     "date": "Apr 2026",
     "title": "SAT Exam Portal — WordPress Plugin",
     "description": "Custom WordPress plugin delivering SAT practice questions with dynamic rendering and interactive UI. Modular plugin architecture with custom post types, shortcodes, and admin settings. Deployed on live Hostinger environment with real SAT content.",
-    "link": "https://github.com/rinchen29",
+    "link": "https://dentify-qo0j0f0r9-rinchen-bhutias-projects.vercel.app/",
     "live": true,
     "TechStack": ["WordPress", "PHP", "Elementor"]
   },
